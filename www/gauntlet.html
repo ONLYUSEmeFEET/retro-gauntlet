@@ -31,7 +31,7 @@ $(function() {
     $(".game-picker").click(function(e){
         e.preventDefault();
         var system = $(this).attr('id');
-        var systemurl = "cgi-bin/gauntlet2.cgi?system=".concat(system);
+        var systemurl = "cgi-bin/gauntlet.cgi?system=".concat(system);
         var announcetext = "Your "+$(this).text()+" game is";
         $('#pre-game').html(announcetext);
         $('#game').load(systemurl);
@@ -74,6 +74,6 @@ Come chat in the irc channel: <a href="irc://irc.rizon.net/gauntlet">#gauntlet</
 </p>
 
 <p>Any problems, <a href="mailto:onlyusemefeet@gmail.com">email</a> me.</p>
-<p><a href="https://github.com/s3krit/retro-gauntlet">Original code by s3krit go check out his github page.</a>
+<p><a href="https://github.com/s3krit/retro-gauntlet">Original code by s3krit. Go check out his github page.</a>
 </body>
 </html>

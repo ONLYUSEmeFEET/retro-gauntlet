@@ -29,7 +29,7 @@ rand($.)<1 and ($game=$_) while <FILE>;
 close FILE;
 $game =~ s/ $//;
 $game =~ s/[\n\r]//g;
-my $body = "<h1>Your game is \"$game\"! Now go play it.</h1>";
+my $body = "<p>Your game is \$game\! Now go play it.</p>";
 printout($body);
 
 sub printout{
