@@ -14,7 +14,7 @@ a:link {
 }
 
 a:visited {
-	color: #bbb;
+	color: rgb(96, 0, 128);
 }
 
 #game-announcer {
@@ -49,6 +49,6 @@ ul{
 
 html{
 	text-align: center;
-	background: #444;
-	color: #aaa;
+	background: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 }
